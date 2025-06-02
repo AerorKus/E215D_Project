@@ -1,0 +1,38 @@
+`include "constants.vams"
+`include "disciplines.vams"
+
+module five_inputs( data_in, data_out );
+input [0:5] data_in;
+output [0:63] data_out;
+
+electrical [0:5] data_in;
+electrical [0:63] data_out;
+
+parameter real VT = 0.9;      // Threshold voltage
+parameter real VDD = 1.8;      // High logic voltage
+parameter real VSS = 0.0;      // Low logic voltage
+parameter real TD = 0.0;       // Transition delay
+parameter real TR = 1n;
+parameter real TF = 1n;
+
+real sum;
+integer i;
+real out_v[63:0];
+
+analog begin 
+	sum = 0;
+	generate i (0,5)
+		sum=sum+((V(data_in[i])>VT)?1:0)*pow(2,i);
+
+	for (i=0; i<=63; i=i+1)
+		if(i<sum)
+			out_v[i]=1;
+		else
+			out_v[i]=0;
+	
+	generate i (63,0)
+		V(data_out[i])<+transition(out_v[i],TD,TR,TF);
+end	
+	
+
+endmodule

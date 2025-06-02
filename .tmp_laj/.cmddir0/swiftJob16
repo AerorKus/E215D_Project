@@ -1,0 +1,27 @@
+#!/bin/sh
+
+cd "/w/home.01/ol/grad/laj/workspace/ee215d"
+
+export CDS_USE_XVFB=1
+export CDS_XVFB_MONITOR=0
+export CDS_PROMPT_CKOUT=none
+export CDS_PROMPT_CKIN=none
+
+export AXL_JOB_DETAIL_COLS=""
+
+export AXL_JOB_DETAIL_COLS=""
+
+source /w/apps4/Cadence/IC231/share/cdssetup/adexl/job_collection_setup.sh 16
+
+/w/apps4/Cadence/IC231/tools.lnx86/dfII/bin/spectreMonitor  --davinciService DaVinciService_3004239_1748804599 --axlsession fnxSession0 -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D0CE3E37EFC06BC4D77E0DA4BCC37CC3E6BEEC2129F67D0227DAAD144CE35C87766E3A12FFC06BC4D0EDE958CE695D47000001E83 -beanhost "eeapps01.labidm.seas.ucla.edu" -beanport 11755 -beanLogFile "/w/home.01/ol/grad/laj/workspace/ee215d/logs_laj/logs0/amps_Job${COLLECTION_JOB_ID}.log"  -beanbinlog "" --domain 0 --interactive yes --netlistOpt no --useMultiPointEvaluation yes --exprEvalShowJobStderr yes --evalSimParallel no --maxSims 0 --historyName "ExplorerRun.0" --historyUUID ""  --exprEvaluator vds --mcMapping mc1.mapping --checkLogStatusInterval 0  --checkSimulatorLogTimeout 1200  --exprEvalMaxTries 3  --maxNFSSyncWait 60  -adeBrokerAddress "eeapps01.labidm.seas.ucla.edu:40109"  --fromADE true --virtuosoBinary "unset libFlag; virtuoso" --guiDisplay localhost:23.0 --globalStatus 60  --evaluateMultiMC yes --evalOnSimFail SkipFailedAnalyses --numRetriesOnError 1 --fenixMode explorer --lingertimeout 300 -ahdlLockTimeout 60 --sdbLib dac --sdbCell dac --sdbView maestro --heartBeatFileDir /dev/shm --id $COLLECTION_JOB_ID --uuid "${COLLECTION_JOB_UUID}" --log "/w/home.01/ol/grad/laj/workspace/ee215d/logs_laj/logs0/Job${COLLECTION_JOB_ID}.log" &
+
+JOB_PID=$!
+HOST_NAME=$(hostname)
+printf "Simulation Monitor process '$JOB_PID' is starting up on host '$HOST_NAME'"
+wait $JOB_PID
+status=$?
+if [ $status != 0 ]; then
+  /w/apps4/Cadence/IC231/tools.lnx86/bin/checkSysConf IC23.1 > /w/home.01/ol/grad/laj/workspace/ee215d/logs_laj/logs0/Job${COLLECTION_JOB_ID}.log.checkSysConf
+fi
+exit $status
+

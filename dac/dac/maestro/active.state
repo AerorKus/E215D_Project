@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<statedb ICVersion="IC23.1-64b.ISR7.27" modifiedTime="06/01/2025 13:06:47" version="5">active
+<statedb ICVersion="IC23.1-64b.ISR7.27" modifiedTime="06/01/2025 20:51:09" version="5">active
 	<Test Name="dac_dac_1">
 		<component Name="adeInfo" Type="skillTable">adeinfo
 			<field Name="designInfo" Type="list">("dac" "dac" "schematic" "spectre")</field>
@@ -462,9 +462,9 @@
 			<field Name="faults" Type="list">nil</field>
 		</component>
 		<component Name="graphicalStimuli" Type="skillTable">graphicalStimTable
-			<field Name="HISTORY_NAMED_STIMULI" Type="list">(nil)</field>
+			<field Name="HISTORY_NAMED_STIMULI" Type="list">(((stimuliName "decodertest1") (libName "") (srcType "dc") (sourceName "Voltage") (cdfInstName "vdc") (isRemoved "false") (timeStamp "01/06/2025;8:27:40:PM") (stopTime "1n") (isourceResistor "1k") (cdfParams (("FNpairs" "0") ("vdc" "1.25")))) ((stimuliName "decodertest0") (libName "") (srcType "dc") (sourceName "Voltage") (cdfInstName "vdc") (isRemoved "false") (timeStamp "01/06/2025;8:28:26:PM") (stopTime "1n") (isourceResistor "1k") (cdfParams (("FNpairs" "0") ("vdc" "0")))))</field>
 			<field Name="GLOBALS" Type="list">(nil)</field>
-			<field Name="INPUTS" Type="list">(nil)</field>
+			<field Name="INPUTS" Type="list">(((name "data_in&lt;0&gt;") (nodes ("data_in&lt;0&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("0") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 "") (srcType "dc"))) (namedStimuli "decodertest0")) ((name "data_in&lt;1&gt;") (nodes ("data_in&lt;1&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("1.25") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 "") (srcType "dc"))) (namedStimuli "decodertest1")) ((name "data_in&lt;2&gt;") (nodes ("data_in&lt;2&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("1.25") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 "") (srcType "dc"))) (namedStimuli "decodertest1")) ((name "data_in&lt;3&gt;") (nodes ("data_in&lt;3&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("1.25") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 "") (srcType "dc"))) (namedStimuli "decodertest1")) ((name "data_in&lt;4&gt;") (nodes ("data_in&lt;4&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("1.25") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 "") (srcType "dc"))) (namedStimuli "decodertest1")) ((name "data_in&lt;5&gt;") (nodes ("data_in&lt;5&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("1.25") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 "") (srcType "dc"))) (namedStimuli "decodertest1")))</field>
 		</component>
 		<component Name="mdlOptions" Type="skillTable">asiEnvSaveTable
 			<partition Name="mdlOpts">
@@ -577,6 +577,47 @@
 						<field Name="uniqueName" Type="string">"/OUT"</field>
 						<field Name="origExprBldrExpression" Type="list">nil</field>
 						<field Name="inValidObject" Type="list">(nil "/OUT")</field>
+						<field Name="inLastSet" Type="list">nil</field>
+					</field>
+					<field Name="outputList_1" Type="defstruct">sevOutputStruct
+						<field Name="name" Type="list">nil</field>
+						<field Name="expression" Type="list">nil</field>
+						<field Name="signal" Type="string">"/data_out&lt;0:63&gt;"</field>
+						<field Name="scriptFile" Type="list">nil</field>
+						<field Name="type2" Type="list">nil</field>
+						<field Name="evalType" Type="symbol">point</field>
+						<field Name="displayIt" Type="symbol">t</field>
+						<field Name="internalName" Type="list">nil</field>
+						<field Name="masterName" Type="list">nil</field>
+						<field Name="masterScriptFile" Type="list">nil</field>
+						<field Name="saveScriptFile" Type="list">nil</field>
+						<field Name="updatedScriptFile" Type="list">nil</field>
+						<field Name="saveMasterScriptFile" Type="list">nil</field>
+						<field Name="isReferenced" Type="list">nil</field>
+						<field Name="lastEvalTime" Type="list">nil</field>
+						<field Name="origin" Type="list">nil</field>
+						<field Name="sweepSet" Type="list">nil</field>
+						<field Name="depList" Type="list">nil</field>
+						<field Name="type" Type="symbol">net</field>
+						<field Name="areaTable" Type="list">nil</field>
+						<field Name="selectionDetail" Type="list">nil</field>
+						<field Name="value" Type="list">nil</field>
+						<field Name="plot" Type="symbol">t</field>
+						<field Name="save" Type="list">nil</field>
+						<field Name="march" Type="list">nil</field>
+						<field Name="implicit" Type="list">nil</field>
+						<field Name="index" Type="fixnum">2</field>
+						<field Name="timeStamp" Type="list">nil</field>
+						<field Name="graphType" Type="list">nil</field>
+						<field Name="yaxisLabel" Type="list">nil</field>
+						<field Name="label" Type="list">nil</field>
+						<field Name="yaxisUnit" Type="list">nil</field>
+						<field Name="waveSpec" Type="list">nil</field>
+						<field Name="uniqueName" Type="string">"/data_out&lt;0:63&gt;"</field>
+						<field Name="origExprBldrExpression" Type="list">nil</field>
+						<field Name="inValidObject" Type="list">(nil "/data_out&lt;0:63&gt;")</field>
+						<field Name="definedIn" Type="list">nil</field>
+						<field Name="inLastSet" Type="list">nil</field>
 					</field>
 				</field>
 			</partition>

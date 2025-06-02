@@ -50,6 +50,9 @@
 					<output>/OUT
 						<evalType>point</evalType>
 					</output>
+					<output>/data_out&lt;0:63&gt;
+						<evalType>point</evalType>
+					</output>
 				</outputs>
 			</test>
 		</tests>
