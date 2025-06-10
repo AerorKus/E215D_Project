@@ -1,0 +1,12 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 23.1 - CAT38 04/15/2024 12:26 (sjfdcl749) $
+\o Sub version:		sub-version  p323 
+\o Arguments:		-cdslib /w/home.01/ol/grad/laj/workspace/ee215d/cds.lib -mpssession virtuoso777078 -mpshost eeapps03.labidm.seas.ucla.edu -mpsversion 23.1 
+\o Working Directory:	eeapps03.labidm.seas.ucla.edu:/w/home.01/ol/grad/laj/workspace/ee215d
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		5.15.9
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "basic"
+\a nrResizeWindow(cdsLibEditor list(1166 573 500 400))
+\a exit(0)

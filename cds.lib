@@ -7,3 +7,4 @@ DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
 DEFINE functional $CDSHOME/tools/dfII/etc/cdslib/artist/functionalDEFINE monteCarlo180RF /w/home.01/ol/grad/laj/workspace/ee215d/monteCarlo180RF
 DEFINE monteCarlo180RF /w/home.01/ol/grad/laj/workspace/ee215d/monteCarlo180RF
 DEFINE dac /w/home.01/ol/grad/laj/workspace/ee215d/dac
+DEFINE bmslib /w/apps4/Cadence/IC231/tools.lnx86/dfII/samples/artist/bmslib

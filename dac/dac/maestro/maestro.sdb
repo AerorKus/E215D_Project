@@ -42,6 +42,15 @@
 					<var>R
 						<value>1k</value>
 					</var>
+					<var>fin
+						<value>10k</value>
+					</var>
+					<var>VDD
+						<value>1.8</value>
+					</var>
+					<var>VREF
+						<value>1.8</value>
+					</var>
 				</vars>
 				<outputs>
 					<output>VT
@@ -51,6 +60,18 @@
 						<evalType>point</evalType>
 					</output>
 					<output>/data_out&lt;0:63&gt;
+						<evalType>point</evalType>
+					</output>
+					<output>/VADC
+						<evalType>point</evalType>
+					</output>
+					<output>/VADC&lt;9:0&gt;
+						<evalType>point</evalType>
+					</output>
+					<output>/net28
+						<evalType>point</evalType>
+					</output>
+					<output>/net30
 						<evalType>point</evalType>
 					</output>
 				</outputs>

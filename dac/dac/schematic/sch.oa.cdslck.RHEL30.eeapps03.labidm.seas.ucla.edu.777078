@@ -5,12 +5,12 @@
 #
 LockStakeVersion               1.1
 LoginName                      laj
-HostName                       eeapps01.labidm.seas.ucla.edu
-ProcessIdentifier              3004239
-ProcessCreationTime_UTC        1748802533
-ProcessCreationTime_Readable   Sun Jun  1 11:28:53 2025 PDT
+HostName                       eeapps03.labidm.seas.ucla.edu
+ProcessIdentifier              777078
+ProcessCreationTime_UTC        1749529364
+ProcessCreationTime_Readable   Mon Jun  9 21:22:44 2025 PDT
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
 FilePathUsedToEditLock         /w/home.01/ol/grad/laj/workspace/ee215d/dac/dac/schematic/sch.oa.cdslck
-TimeEditLocked                 Sun Jun  1 11:31:46 2025 PDT
+TimeEditLocked                 Mon Jun  9 21:23:49 2025 PDT

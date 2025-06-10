@@ -1,0 +1,7 @@
+<Columns_settings>
+ <View type="Schematic">
+  <Set name="NetsNPins_sch_opcExpr">
+   <Column name="Design Intent" visible="true"/>
+  </Set>
+ </View>
+</Columns_settings>

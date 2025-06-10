@@ -4,14 +4,14 @@ startup_timeout=30
 heartbeat_timeout=10
 terminate_timeout=10
 check_service_file=1
-service_file=`dirname /w/home.01/ol/grad/laj/workspace/ee215d/logs_laj/logs0/LoggingService${COLLECTION_JOB_ID}.log`
-service_file=$service_file/.DaVinciService_3004239_1748804599
+service_file=`dirname /w/home.01/ol/grad/laj/workspace/ee215d/logs_laj/logs1/LoggingService${COLLECTION_JOB_ID}.log`
+service_file=$service_file/.DaVinciService_777078_1749529403
 
 cd /w/home.01/ol/grad/laj/workspace/ee215d
 
 
 
-source /w/apps4/Cadence/IC231/share/cdssetup/adexl/job_collection_setup.sh 19
+source /w/apps4/Cadence/IC231/share/cdssetup/adexl/job_collection_setup.sh 11
 
 
 
@@ -69,7 +69,7 @@ trap "handle_exit" EXIT
 heartbeat=`mktemp /dev/shm/swift-heartbeat.XXXXXXXXXX`
 last_heartbeat=`stat -c %y "$heartbeat"`
 
-/w/apps4/Cadence/IC231/tools.lnx86/dfII/bin/maeLoggingservice -beanhost "eeapps01.labidm.seas.ucla.edu" -beanport 11755 -beanbinlog "" -mpssession "virtuoso3004239" -mpshost "eeapps01.labidm.seas.ucla.edu" -davinciService DaVinciService_3004239_1748804599 -scopedPid 3004239 -axlSession fnxSession0 -axlServiceIdFlag $COLLECTION_JOB_ID -uuid "${COLLECTION_JOB_UUID}" -heartbeat "$heartbeat" -log /w/home.01/ol/grad/laj/workspace/ee215d/logs_laj/logs0/LoggingService${COLLECTION_JOB_ID}.log   -adeBrokerAddress "eeapps01.labidm.seas.ucla.edu:40109"  -dbBasePath "/w/home.01/ol/grad/laj/workspace/ee215d/dac/dac/maestro/results/maestro"   1>/dev/null  2>/dev/null  &
+/w/apps4/Cadence/IC231/tools.lnx86/dfII/bin/maeLoggingservice -beanhost "eeapps03.labidm.seas.ucla.edu" -beanport 11413 -beanbinlog "" -mpssession "virtuoso777078" -mpshost "eeapps03.labidm.seas.ucla.edu" -davinciService DaVinciService_777078_1749529403 -scopedPid 777078 -axlSession fnxSession0 -axlServiceIdFlag $COLLECTION_JOB_ID -uuid "${COLLECTION_JOB_UUID}" -heartbeat "$heartbeat" -log /w/home.01/ol/grad/laj/workspace/ee215d/logs_laj/logs1/LoggingService${COLLECTION_JOB_ID}.log   -adeBrokerAddress "eeapps03.labidm.seas.ucla.edu:36777"  -dbBasePath "/w/home.01/ol/grad/laj/workspace/ee215d/dac/dac/maestro/results/maestro"   1>/dev/null  2>/dev/null  &
 
 JOB_PID=$!
 HOST_NAME=$(hostname)
@@ -101,7 +101,7 @@ while [ -d "/proc/$JOB_PID" ]; do
   ## does not require vars to be in quotes to handle empty values and spaces.
   if [[ ! `stat -c %y $heartbeat` > $last_heartbeat && ($check_service_file == 0 || ($check_service_file != 0 && ! -e $service_file)) ]]; then
     if [[ $status == "starting" ]]; then
-      cdsmps -c 'mpsSend(mpsMakePattern("ADE-service-status-DaVinciService_3004239_1748804599-fnxSession0" "{\"jobId\":19,\"status\":\"starttimeout\"}"))'
+      cdsmps -c 'mpsSend(mpsMakePattern("ADE-service-status-DaVinciService_777078_1749529403-fnxSession0" "{\"jobId\":11,\"status\":\"starttimeout\"}"))'
     fi
     # No new heartbeat since last check implies an unresponsive process
     # Non-empty file means that the heartbeat check is temporarily disabled

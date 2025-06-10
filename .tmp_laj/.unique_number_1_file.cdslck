@@ -11,6 +11,6 @@ ProcessCreationTime_UTC        1749529349
 ProcessCreationTime_Readable   Mon Jun  9 21:22:29 2025 PDT
 AppIdentifier                  /w/apps4/Cadence/IC231/tools/dfII/bin/64bit/virtuoso
 OSType                         lnx86
-ReasonForPlacingEditLock       
-FilePathUsedToEditLock         /w/home.01/ol/grad/laj/workspace/ee215d/dac/dac/maestro/maestro.sdb
-TimeEditLocked                 Mon Jun  9 21:23:24 2025 PDT
+ReasonForPlacingEditLock       Lock file for generating unique number for ICRP command and log file directories.
+FilePathUsedToEditLock         /w/home.01/ol/grad/laj/workspace/ee215d/.tmp_laj/.unique_number_1_file
+TimeEditLocked                 Mon Jun  9 21:23:23 2025 PDT

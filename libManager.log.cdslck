@@ -5,12 +5,12 @@
 #
 LockStakeVersion               1.1
 LoginName                      laj
-HostName                       eeapps01.labidm.seas.ucla.edu
-ProcessIdentifier              3006479
-ProcessCreationTime_UTC        1748802538
-ProcessCreationTime_Readable   Sun Jun  1 11:28:58 2025 PDT
+HostName                       eeapps03.labidm.seas.ucla.edu
+ProcessIdentifier              778080
+ProcessCreationTime_UTC        1749529372
+ProcessCreationTime_Readable   Mon Jun  9 21:22:52 2025 PDT
 AppIdentifier                  /w/apps4/Cadence/IC231/tools/dfII/bin/64bit/libManager
 OSType                         lnx86
 ReasonForPlacingEditLock       log file
 FilePathUsedToEditLock         /w/home.01/ol/grad/laj/workspace/ee215d/libManager.log
-TimeEditLocked                 Sun Jun  1 11:29:41 2025 PDT
+TimeEditLocked                 Mon Jun  9 21:23:16 2025 PDT

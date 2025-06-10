@@ -11,6 +11,6 @@ ProcessCreationTime_UTC        1749529349
 ProcessCreationTime_Readable   Mon Jun  9 21:22:29 2025 PDT
 AppIdentifier                  /w/apps4/Cadence/IC231/tools/dfII/bin/64bit/virtuoso
 OSType                         lnx86
-ReasonForPlacingEditLock       
-FilePathUsedToEditLock         /w/home.01/ol/grad/laj/workspace/ee215d/dac/dac/maestro/maestro.sdb
-TimeEditLocked                 Mon Jun  9 21:23:24 2025 PDT
+ReasonForPlacingEditLock       lock for logging service log file
+FilePathUsedToEditLock         /w/home.01/ol/grad/laj/workspace/ee215d/logs_laj/logs1/LoggingService11.log
+TimeEditLocked                 Tue Jun 10 00:09:55 2025 PDT

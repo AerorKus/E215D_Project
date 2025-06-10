@@ -1,7 +1,7 @@
 \o Program:		@(#)$CDS: libManager version 23.1 - CAT38 04/15/2024 12:23 (sjfdcl749) $
 \o Sub version:		sub-version  p323 
-\o Arguments:		-unmapped -mpssession virtuoso3004239 -mpshost eeapps01.labidm.seas.ucla.edu -masterPID 3004239 -ADVM 
-\o Working Directory:	eeapps01.labidm.seas.ucla.edu:/w/home.01/ol/grad/laj/workspace/ee215d
+\o Arguments:		-unmapped -mpssession virtuoso777078 -mpshost eeapps03.labidm.seas.ucla.edu -masterPID 777078 -ADVM 
+\o Working Directory:	eeapps03.labidm.seas.ucla.edu:/w/home.01/ol/grad/laj/workspace/ee215d
 \o 64-bit offsets
 \o Qt version: 		5.15.9
 \o MPS virtuoso types registered: 68
@@ -12,128 +12,212 @@
 \o Opening libManager window.
 \a nrSetWindowVisibility(cdsLibManager "show")
 \o MPS service: map window
+\o Library Manager customization server connected.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(1578 790 854 509))
 \w Warning: LIB analogLib from File /w/home.01/ol/grad/laj/workspace/ee215d/cds.lib Line 6 redefines
 \w LIB analogLib from the same file (defined earlier.)
 \w Warning: '/w/home.01/ol/grad/laj/workspace/ee215d/cds.lib', Line 7: Skipping: 'monteCarlo180RF'
 \o   /w/home.01/ol/grad/laj/workspace/ee215d/monteCarlo180RF 
 \w Warning: The directory: '/w/apps4/Cadence/IC231/tools.lnx86/dfII/etc/cdslib/artist/functionalDEFINE' does not exist
 \w 	but was defined in libFile '/w/home.01/ol/grad/laj/workspace/ee215d/cds.lib' for Lib 'functional'.
-\o Library Manager customization server connected.
+\a cdsLibManager->libListBox->value = "dac"
+\a cdsLibManager->libLineEdit->value = "dac"
+\a cdsLibManager->cellListBox->value = "tempdecoder"
+\a cdsLibManager->cellLineEdit->value = "tempdecoder"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellListBox->value = "dac"
+\a cdsLibManager->cellLineEdit->value = "dac"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 0 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\w Warning: LIB analogLib from File /w/home.01/ol/grad/laj/workspace/ee215d/cds.lib Line 6 redefines
+\w LIB analogLib from the same file (defined earlier.)
+\w Warning: '/w/home.01/ol/grad/laj/workspace/ee215d/cds.lib', Line 7: Skipping: 'monteCarlo180RF'
+\o   /w/home.01/ol/grad/laj/workspace/ee215d/monteCarlo180RF 
+\w Warning: The directory: '/w/apps4/Cadence/IC231/tools.lnx86/dfII/etc/cdslib/artist/functionalDEFINE' does not exist
+\w 	but was defined in libFile '/w/home.01/ol/grad/laj/workspace/ee215d/cds.lib' for Lib 'functional'.
+\a cdsLibManager->libListBox->value = "dac"
+\a cdsLibManager->libLineEdit->value = "dac"
+\a cdsLibManager->cellListBox->value = "dac"
+\a cdsLibManager->cellLineEdit->value = "dac"
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(1563 734 854 509))
-\a cdsLibManager->libListBox->value = "tsmc18"
-\a cdsLibManager->libLineEdit->value = "tsmc18"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\w Warning: LIB analogLib from File /w/home.01/ol/grad/laj/workspace/ee215d/cds.lib Line 6 redefines
+\w LIB analogLib from the same file (defined earlier.)
+\w Warning: '/w/home.01/ol/grad/laj/workspace/ee215d/cds.lib', Line 7: Skipping: 'monteCarlo180RF'
+\o   /w/home.01/ol/grad/laj/workspace/ee215d/monteCarlo180RF 
+\w Warning: The directory: '/w/apps4/Cadence/IC231/tools.lnx86/dfII/etc/cdslib/artist/functionalDEFINE' does not exist
+\w 	but was defined in libFile '/w/home.01/ol/grad/laj/workspace/ee215d/cds.lib' for Lib 'functional'.
+\a cdsLibManager->libListBox->value = "dac"
+\a cdsLibManager->libLineEdit->value = "dac"
+\a cdsLibManager->cellListBox->value = "dac"
+\a cdsLibManager->cellLineEdit->value = "dac"
+\a nrResizeWindow(cdsLibManager list(1585 774 854 509))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(1571 862 854 509))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrResizeWindow(cdsLibManager list(0 0 854 509))
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(1571 862 854 509))
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrResizeWindow(cdsLibManager list(0 0 854 509))
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(1571 862 854 509))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(1668 855 854 509))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrResizeWindow(cdsLibManager list(0 0 854 509))
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(1668 855 854 509))
 \a cdsLibManager->libListBox->value = "monteCarlo180RF"
 \a cdsLibManager->libLineEdit->value = "monteCarlo180RF"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->cellListBox->value = "diffpairtb"
 \a cdsLibManager->cellLineEdit->value = "diffpairtb"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = "dac"
+\a cdsLibManager->libLineEdit->value = "dac"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->libListBox->value = "cdsDefTechLib"
+\a cdsLibManager->libLineEdit->value = "cdsDefTechLib"
+\a cdsLibManager->libListBox->value = "bmslib"
+\a cdsLibManager->libLineEdit->value = "bmslib"
+\a cdsLibManager->libListBox->value = "ahdlLib"
+\a cdsLibManager->libLineEdit->value = "ahdlLib"
+\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->FileNewLibButton->value = t
 \a nrSetWindowVisibility(NewLibShell "show")
 \a nrSetCurrentWindow(NewLibShell)
 \a nrSetCurrentWindow(NewLibShell->subDialog)
-\a nrResizeWindow(NewLibShell list(1727 669 507 559))
-\a nrResizeWindow(NewLibShell list(1776 697 507 559))
-\a nrResizeWindow(NewLibShell list(1813 707 507 559))
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->FileNewLibButton->value = t
-\a nrSetWindowVisibility(NewLibShell->subDialog "show")
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(NewLibShell)
-\a nrSetCurrentWindow(NewLibShell->subDialog)
-\a nrResizeWindow(NewLibShell list(1727 669 507 559))
-\a NewLibShell->newLibNameText->value = "dac"
-\a NewLibShell->newLibApplyButton->value = t
-\a nrSetWindowVisibility(workingDialogForm "show")
-\a nrSetCurrentWindow(workingDialogForm)
-\o Created new library "dac" at /w/home.01/ol/grad/laj/workspace/ee215d/dac.
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\w Warning: LIB analogLib from File /w/home.01/ol/grad/laj/workspace/ee215d/cds.lib Line 6 redefines
-\w LIB analogLib from the same file (defined earlier.)
-\w Warning: '/w/home.01/ol/grad/laj/workspace/ee215d/cds.lib', Line 7: Skipping: 'monteCarlo180RF'
-\o   /w/home.01/ol/grad/laj/workspace/ee215d/monteCarlo180RF 
-\w Warning: The directory: '/w/apps4/Cadence/IC231/tools.lnx86/dfII/etc/cdslib/artist/functionalDEFINE' does not exist
-\w 	but was defined in libFile '/w/home.01/ol/grad/laj/workspace/ee215d/cds.lib' for Lib 'functional'.
-\a cdsLibManager->libListBox->value = "monteCarlo180RF"
-\a cdsLibManager->libLineEdit->value = "monteCarlo180RF"
-\a cdsLibManager->cellListBox->value = "diffpairtb"
-\a cdsLibManager->cellLineEdit->value = "diffpairtb"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellListBox->value = "diffpairtb"
-\a cdsLibManager->cellLineEdit->value = "diffpairtb"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(workingDialogForm list(1848 882 264 133))
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\w Warning: LIB analogLib from File /w/home.01/ol/grad/laj/workspace/ee215d/cds.lib Line 6 redefines
-\w LIB analogLib from the same file (defined earlier.)
-\w Warning: '/w/home.01/ol/grad/laj/workspace/ee215d/cds.lib', Line 7: Skipping: 'monteCarlo180RF'
-\o   /w/home.01/ol/grad/laj/workspace/ee215d/monteCarlo180RF 
-\w Warning: The directory: '/w/apps4/Cadence/IC231/tools.lnx86/dfII/etc/cdslib/artist/functionalDEFINE' does not exist
-\w 	but was defined in libFile '/w/home.01/ol/grad/laj/workspace/ee215d/cds.lib' for Lib 'functional'.
-\a cdsLibManager->libListBox->value = "monteCarlo180RF"
-\a cdsLibManager->libLineEdit->value = "monteCarlo180RF"
-\a cdsLibManager->cellListBox->value = "diffpairtb"
-\a cdsLibManager->cellLineEdit->value = "diffpairtb"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellListBox->value = "diffpairtb"
-\a cdsLibManager->cellLineEdit->value = "diffpairtb"
-\a NewLibShell->newLibOKButton->value = t
-\a nrSetCurrentWindow(NewLibShell)
-\a nrSetCurrentWindow(NewLibShell->subDialog)
-\o ERROR (CLM-287): A library by that name already exists.
-\a nrSetWindowVisibility(errorDialog "show")
-\a nrSetCurrentWindow(errorDialog)
-\a nrResizeWindow(errorDialog list(1849 887 262 122))
-\a errorDialog->errorOkButton->value = t
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(NewLibShell)
-\a nrSetCurrentWindow(NewLibShell->subDialog)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "dac"
-\a cdsLibManager->libLineEdit->value = "dac"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = nil
-\a nrListItemAction(cdsLibManager->libListBox "dac" 0)
-\a cdsLibManager->libListBox->value = "dac"
-\a cdsLibManager->libLineEdit->value = "dac"
-\a lmgrLogShowPopup("mainListPopup0" 21 96 2 "dac")
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = nil
-\a nrListItemAction(cdsLibManager->libListBox "dac" 0)
-\a cdsLibManager->libListBox->value = "dac"
-\a cdsLibManager->libLineEdit->value = "dac"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->FileNewLibButton->value = t
-\a NewLibShell->newLibNameText->value = ""
+\a nrResizeWindow(NewLibShell list(1832 790 507 559))
 \a NewLibShell->QLineEdit1->value = ""
 \a NewLibShell->QLineEdit1->value = "/w/home.01/ol/grad/laj/workspace/ee215d"
+\a NewLibShell->QLineEdit1->value = ""
+\a NewLibShell->QLineEdit1->value = "/w/home.01/ol/grad/laj/workspace"
+\a NewLibShell->QLineEdit1->value = ""
+\a NewLibShell->QLineEdit1->value = "/w/home.01/ol/grad/laj/workspace/ee201a"
+\a NewLibShell->QLineEdit1->value = ""
+\a NewLibShell->QLineEdit1->value = "/w/home.01/ol/grad/laj/workspace/ee201a/project"
+\a nrResizeWindow(NewLibShell->subDialog list(9 9 694 292))
+\a nrResizeWindow(NewLibShell list(1832 790 760 559))
+\a NewLibShell->QLineEdit1->value = ""
+\a NewLibShell->QLineEdit1->value = "/w/home.01/ol/grad/laj/workspace/ee201a"
+\a NewLibShell->QLineEdit1->value = ""
+\a NewLibShell->QLineEdit1->value = "/w/home.01/ol/grad/laj/workspace/ee201a/project1"
+\a NewLibShell->QLineEdit1->value = ""
+\a NewLibShell->QLineEdit1->value = "/w/home.01/ol/grad/laj/workspace/ee201a"
+\a NewLibShell->QLineEdit1->value = ""
+\a NewLibShell->QLineEdit1->value = "/w/home.01/ol/grad/laj/workspace"
+\a NewLibShell->QLineEdit1->value = ""
+\a NewLibShell->QLineEdit1->value = "/w/home.01/ol/grad/laj/workspace/ee201a"
+\a NewLibShell->QLineEdit1->value = ""
+\a NewLibShell->QLineEdit1->value = "/w/home.01/ol/grad/laj/workspace/ee201a/project"
+\a NewLibShell->QLineEdit1->value = ""
+\a NewLibShell->QLineEdit1->value = "/w/home.01/ol/grad/laj/workspace/ee201a"
+\a NewLibShell->QLineEdit1->value = ""
+\a NewLibShell->QLineEdit1->value = "/w/home.01/ol/grad/laj/workspace"
+\a NewLibShell->QLineEdit1->value = ""
+\a NewLibShell->QLineEdit1->value = "/w/home.01/ol/grad/laj/workspace/ee215a"
+\a NewLibShell->QLineEdit1->value = ""
+\a NewLibShell->QLineEdit1->value = "/w/home.01/ol/grad/laj/workspace/ee215a/cbin"
+\a NewLibShell->QLineEdit1->value = ""
+\a NewLibShell->QLineEdit1->value = "/w/home.01/ol/grad/laj/workspace/ee215a/cbin/ee215a"
+\a NewLibShell->QLineEdit1->value = ""
+\a NewLibShell->QLineEdit1->value = "/w/home.01/ol/grad/laj/workspace/ee215a/cbin"
+\a NewLibShell->QLineEdit1->value = ""
+\a NewLibShell->QLineEdit1->value = "/w/home.01/ol/grad/laj/workspace/ee215a"
+\a NewLibShell->QLineEdit1->value = ""
+\a NewLibShell->QLineEdit1->value = "/w/home.01/ol/grad/laj/workspace/ee215a/cbin"
+\a NewLibShell->QLineEdit1->value = ""
+\a NewLibShell->QLineEdit1->value = "/w/home.01/ol/grad/laj/workspace/ee215a/cbin/ee215a"
+\a NewLibShell->newLibCancelButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\w Warning: LIB analogLib from File /w/home.01/ol/grad/laj/workspace/ee215d/cds.lib Line 6 redefines
+\w LIB analogLib from the same file (defined earlier.)
+\w Warning: '/w/home.01/ol/grad/laj/workspace/ee215d/cds.lib', Line 7: Skipping: 'monteCarlo180RF'
+\o   /w/home.01/ol/grad/laj/workspace/ee215d/monteCarlo180RF 
+\w Warning: The directory: '/w/apps4/Cadence/IC231/tools.lnx86/dfII/etc/cdslib/artist/functionalDEFINE' does not exist
+\w 	but was defined in libFile '/w/home.01/ol/grad/laj/workspace/ee215d/cds.lib' for Lib 'functional'.
+\a cdsLibManager->libListBox->value = "ahdlLib"
+\a cdsLibManager->libLineEdit->value = "ahdlLib"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(0 0 854 509))
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(1668 855 854 509))
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrResizeWindow(cdsLibManager list(0 0 854 509))
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(1668 855 854 509))
+\a cdsLibManager->FileNewCVButton->value = t
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\w Warning: LIB analogLib from File /w/home.01/ol/grad/laj/workspace/ee215d/cds.lib Line 6 redefines
+\w LIB analogLib from the same file (defined earlier.)
+\w Warning: '/w/home.01/ol/grad/laj/workspace/ee215d/cds.lib', Line 7: Skipping: 'monteCarlo180RF'
+\o   /w/home.01/ol/grad/laj/workspace/ee215d/monteCarlo180RF 
+\w Warning: The directory: '/w/apps4/Cadence/IC231/tools.lnx86/dfII/etc/cdslib/artist/functionalDEFINE' does not exist
+\w 	but was defined in libFile '/w/home.01/ol/grad/laj/workspace/ee215d/cds.lib' for Lib 'functional'.
+\a cdsLibManager->libListBox->value = "ahdlLib"
+\a cdsLibManager->libLineEdit->value = "ahdlLib"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->FileNewLibButton->value = t
 \a nrSetWindowVisibility(NewLibShell->subDialog "show")
 \a nrSetCurrentWindow(NewLibShell)
 \a nrSetCurrentWindow(NewLibShell->subDialog)
-\a NewLibShell->newLibApplyButton->value = t
+\a nrResizeWindow(NewLibShell list(1705 790 760 559))
+\a NewLibShell->newLibOKButton->value = t
+\o ERROR (CLM-284): Provide a library name.
+\a nrSetWindowVisibility(errorDialog "show")
+\a nrSetCurrentWindow(errorDialog)
+\a nrResizeWindow(errorDialog list(1989 1008 192 122))
+\a errorDialog->errorHelpButton->value = t
+\o Invoking help (noLibNameSpecified).
+\a nrSetCurrentWindow(errorDialog)
+\a nrSetCurrentWindow(errorDialog)
+\a nrResizeWindow(NewLibShell list(1699 804 760 559))
+\a nrSetCurrentWindow(errorDialog)
+\a errorDialog->errorOkButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
 \a NewLibShell->newLibCancelButton->value = t
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->FileNewCVButton->value = t
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\w Warning: LIB analogLib from File /w/home.01/ol/grad/laj/workspace/ee215d/cds.lib Line 6 redefines
-\w LIB analogLib from the same file (defined earlier.)
-\w Warning: '/w/home.01/ol/grad/laj/workspace/ee215d/cds.lib', Line 7: Skipping: 'monteCarlo180RF'
-\o   /w/home.01/ol/grad/laj/workspace/ee215d/monteCarlo180RF 
-\w Warning: The directory: '/w/apps4/Cadence/IC231/tools.lnx86/dfII/etc/cdslib/artist/functionalDEFINE' does not exist
-\w 	but was defined in libFile '/w/home.01/ol/grad/laj/workspace/ee215d/cds.lib' for Lib 'functional'.
-\a cdsLibManager->libListBox->value = "dac"
-\a cdsLibManager->libLineEdit->value = "dac"
+\a nrSetCurrentWindow(NewLibShell)
+\a nrSetCurrentWindow(NewLibShell->subDialog)
 \a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
@@ -143,271 +227,15 @@
 \o   /w/home.01/ol/grad/laj/workspace/ee215d/monteCarlo180RF 
 \w Warning: The directory: '/w/apps4/Cadence/IC231/tools.lnx86/dfII/etc/cdslib/artist/functionalDEFINE' does not exist
 \w 	but was defined in libFile '/w/home.01/ol/grad/laj/workspace/ee215d/cds.lib' for Lib 'functional'.
-\a cdsLibManager->libListBox->value = "dac"
-\a cdsLibManager->libLineEdit->value = "dac"
-\a cdsLibManager->cellListBox->value = "dac"
-\a cdsLibManager->cellLineEdit->value = "dac"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "dac"
-\a cdsLibManager->cellLineEdit->value = "dac"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrResizeWindow(cdsLibManager list(1591 810 854 509))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrResizeWindow(cdsLibManager list(0 0 854 509))
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(1591 810 854 509))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrResizeWindow(cdsLibManager list(0 0 854 509))
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(1591 810 854 509))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(1613 983 854 509))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\w Warning: LIB analogLib from File /w/home.01/ol/grad/laj/workspace/ee215d/cds.lib Line 6 redefines
-\w LIB analogLib from the same file (defined earlier.)
-\w Warning: '/w/home.01/ol/grad/laj/workspace/ee215d/cds.lib', Line 7: Skipping: 'monteCarlo180RF'
-\o   /w/home.01/ol/grad/laj/workspace/ee215d/monteCarlo180RF 
-\w Warning: The directory: '/w/apps4/Cadence/IC231/tools.lnx86/dfII/etc/cdslib/artist/functionalDEFINE' does not exist
-\w 	but was defined in libFile '/w/home.01/ol/grad/laj/workspace/ee215d/cds.lib' for Lib 'functional'.
-\a cdsLibManager->libListBox->value = "dac"
-\a cdsLibManager->libLineEdit->value = "dac"
-\a cdsLibManager->cellListBox->value = "dac"
-\a cdsLibManager->cellLineEdit->value = "dac"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "dac"
-\a cdsLibManager->cellLineEdit->value = "dac"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrResizeWindow(cdsLibManager list(0 0 854 509))
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(1613 983 854 509))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrResizeWindow(cdsLibManager list(0 0 854 509))
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(1613 983 854 509))
-\a nrResizeWindow(cdsLibManager list(1622 892 854 509))
-\a cdsLibManager->libListBox->value = "basic"
-\a cdsLibManager->libLineEdit->value = "basic"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->libListBox->value = "analogLib"
-\a cdsLibManager->libLineEdit->value = "analogLib"
-\a cdsLibManager->libListBox->value = "avTech"
-\a cdsLibManager->libLineEdit->value = "avTech"
 \a cdsLibManager->libListBox->value = "ahdlLib"
 \a cdsLibManager->libLineEdit->value = "ahdlLib"
-\a cdsLibManager->libListBox->value = "analogLib"
-\a cdsLibManager->libLineEdit->value = "analogLib"
-\a cdsLibManager->libListBox->value = "basic"
-\a cdsLibManager->libLineEdit->value = "basic"
-\a cdsLibManager->libListBox->value = "avTech"
-\a cdsLibManager->libLineEdit->value = "avTech"
-\a cdsLibManager->libListBox->value = "analogLib"
-\a cdsLibManager->libLineEdit->value = "analogLib"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "basic"
-\a cdsLibManager->libLineEdit->value = "basic"
-\a cdsLibManager->libListBox->value = "analogLib"
-\a cdsLibManager->libLineEdit->value = "analogLib"
-\a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libListBox->value = "analogLib"
-\a cdsLibManager->libLineEdit->value = "analogLib"
-\a cdsLibManager->cellListBox->value = "MOS_a2d"
-\a cdsLibManager->cellLineEdit->value = "MOS_a2d"
-\a cdsLibManager->cellListBox->value = "MOS_d2a"
-\a cdsLibManager->cellLineEdit->value = "MOS_d2a"
-\a cdsLibManager->cellListBox->value = "TTL_a2d"
-\a cdsLibManager->cellLineEdit->value = "TTL_a2d"
-\a cdsLibManager->libListBox->value = "basic"
-\a cdsLibManager->libLineEdit->value = "basic"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->libListBox->value = "avTech"
-\a cdsLibManager->libLineEdit->value = "avTech"
-\a cdsLibManager->libListBox->value = "basic"
-\a cdsLibManager->libLineEdit->value = "basic"
-\a cdsLibManager->libListBox->value = "cdsDefTechLib"
-\a cdsLibManager->libLineEdit->value = "cdsDefTechLib"
-\a cdsLibManager->libListBox->value = "basic"
-\a cdsLibManager->libLineEdit->value = "basic"
-\a cdsLibManager->libListBox->value = "cdsDefTechLib"
-\a cdsLibManager->libLineEdit->value = "cdsDefTechLib"
 \a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libListBox->value = "dac"
-\a cdsLibManager->libLineEdit->value = "dac"
-\a cdsLibManager->cellListBox->value = "dac"
-\a cdsLibManager->cellLineEdit->value = "dac"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->libListBox->value = "tsmc18"
-\a cdsLibManager->libLineEdit->value = "tsmc18"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
+\w Warning: LIB analogLib from File /w/home.01/ol/grad/laj/workspace/ee215d/cds.lib Line 6 redefines
+\w LIB analogLib from the same file (defined earlier.)
+\w Warning: '/w/home.01/ol/grad/laj/workspace/ee215d/cds.lib', Line 7: Skipping: 'monteCarlo180RF'
+\o   /w/home.01/ol/grad/laj/workspace/ee215d/monteCarlo180RF 
+\w Warning: The directory: '/w/apps4/Cadence/IC231/tools.lnx86/dfII/etc/cdslib/artist/functionalDEFINE' does not exist
+\w 	but was defined in libFile '/w/home.01/ol/grad/laj/workspace/ee215d/cds.lib' for Lib 'functional'.
 \a cdsLibManager->libListBox->value = "ahdlLib"
 \a cdsLibManager->libLineEdit->value = "ahdlLib"
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrResizeWindow(cdsLibManager list(0 0 854 509))
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(1622 892 854 509))
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrResizeWindow(cdsLibManager list(0 0 854 509))
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(1622 892 854 509))
-\a cdsLibManager->libListBox->value = "monteCarlo180RF"
-\a cdsLibManager->libLineEdit->value = "monteCarlo180RF"
-\a cdsLibManager->cellListBox->value = "diffpairtb"
-\a cdsLibManager->cellLineEdit->value = "diffpairtb"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->libListBox->value = "tsmc18"
-\a cdsLibManager->libLineEdit->value = "tsmc18"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->libListBox->value = "monteCarlo180RF"
-\a cdsLibManager->libLineEdit->value = "monteCarlo180RF"
-\a cdsLibManager->cellListBox->value = "diffpairtb"
-\a cdsLibManager->cellLineEdit->value = "diffpairtb"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->libListBox->value = "dac"
-\a cdsLibManager->libLineEdit->value = "dac"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "dac"
-\a cdsLibManager->cellLineEdit->value = "dac"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->FileNewCVButton->value = t
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\w Warning: LIB analogLib from File /w/home.01/ol/grad/laj/workspace/ee215d/cds.lib Line 6 redefines
-\w LIB analogLib from the same file (defined earlier.)
-\w Warning: '/w/home.01/ol/grad/laj/workspace/ee215d/cds.lib', Line 7: Skipping: 'monteCarlo180RF'
-\o   /w/home.01/ol/grad/laj/workspace/ee215d/monteCarlo180RF 
-\w Warning: The directory: '/w/apps4/Cadence/IC231/tools.lnx86/dfII/etc/cdslib/artist/functionalDEFINE' does not exist
-\w 	but was defined in libFile '/w/home.01/ol/grad/laj/workspace/ee215d/cds.lib' for Lib 'functional'.
-\a cdsLibManager->libListBox->value = "dac"
-\a cdsLibManager->libLineEdit->value = "dac"
-\a cdsLibManager->cellListBox->value = "dac"
-\a cdsLibManager->cellLineEdit->value = "dac"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "dac"
-\a cdsLibManager->cellLineEdit->value = "dac"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrResizeWindow(cdsLibManager list(0 0 854 509))
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\w Warning: LIB analogLib from File /w/home.01/ol/grad/laj/workspace/ee215d/cds.lib Line 6 redefines
-\w LIB analogLib from the same file (defined earlier.)
-\w Warning: '/w/home.01/ol/grad/laj/workspace/ee215d/cds.lib', Line 7: Skipping: 'monteCarlo180RF'
-\o   /w/home.01/ol/grad/laj/workspace/ee215d/monteCarlo180RF 
-\w Warning: The directory: '/w/apps4/Cadence/IC231/tools.lnx86/dfII/etc/cdslib/artist/functionalDEFINE' does not exist
-\w 	but was defined in libFile '/w/home.01/ol/grad/laj/workspace/ee215d/cds.lib' for Lib 'functional'.
-\a cdsLibManager->libListBox->value = "dac"
-\a cdsLibManager->libLineEdit->value = "dac"
-\a cdsLibManager->cellListBox->value = "dac"
-\a cdsLibManager->cellLineEdit->value = "dac"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\w Warning: LIB analogLib from File /w/home.01/ol/grad/laj/workspace/ee215d/cds.lib Line 6 redefines
-\w LIB analogLib from the same file (defined earlier.)
-\w Warning: '/w/home.01/ol/grad/laj/workspace/ee215d/cds.lib', Line 7: Skipping: 'monteCarlo180RF'
-\o   /w/home.01/ol/grad/laj/workspace/ee215d/monteCarlo180RF 
-\w Warning: The directory: '/w/apps4/Cadence/IC231/tools.lnx86/dfII/etc/cdslib/artist/functionalDEFINE' does not exist
-\w 	but was defined in libFile '/w/home.01/ol/grad/laj/workspace/ee215d/cds.lib' for Lib 'functional'.
-\a cdsLibManager->libListBox->value = "dac"
-\a cdsLibManager->libLineEdit->value = "dac"
-\a cdsLibManager->cellListBox->value = "dac"
-\a cdsLibManager->cellLineEdit->value = "dac"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"

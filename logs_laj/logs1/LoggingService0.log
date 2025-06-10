@@ -1,0 +1,275 @@
+[Logging Service: 0]
+[2025-06-09 21:23:26.311 -0700] [INFO] [cadence.virtuoso.ade.loggingservice] - HistoryRecorderManager init {"dbBasePath": "/w/home.01/ol/grad/laj/workspace/ee215d/dac/dac/maestro/results/maestro"}
+[2025-06-09 21:23:26.311 -0700] [INFO] [cadence.virtuoso.ade.loggingservice] - useGRPC grpc service... {"brokerAddress": "eeapps03.labidm.seas.ucla.edu:36777", "serviceName": "DaVinciService_777078_1749529403", "axlSession": "fnxSession0"}
+[2025-06-09 21:23:26.311 -0700] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service has successfully started. Waiting for incoming messages ... {"hostname": "eeapps03.labidm.seas.ucla.edu", "processid": 778647, "logfile": "/w/home.01/ol/grad/laj/workspace/ee215d/logs_laj/logs1/LoggingService0.log"}
+[2025-06-09 21:23:26.326 -0700] [INFO] [cadence.virtuoso.ade.loggingservice] - logging service gRPC started {"broker address": "eeapps03.labidm.seas.ucla.edu:46379"}
+[2025-06-09 21:35:40.759 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "UNIQUE constraint failed: location.point, location.test, location.tool", "sql": "INSERT INTO location (tool, file, point, test, line) VALUES ('ADE GUI', '/w/home.01/ol/grad/laj/workspace/ee215d/logs_laj/logs1/virtuoso_ade_debug.log', '', '', '0');"}
+[2025-06-09 21:35:40.759 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "attempt to write a readonly database", "sql": "delete from meta;"}
+[2025-06-09 21:35:40.759 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "attempt to write a readonly database", "sql": "insert into meta (key, value) values('HistorySimDir','/w/home.01/ol/grad/laj/simulation/dac/dac/maestro/results/maestro/ExplorerRun.0');"}
+[2025-06-09 21:35:40.759 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "attempt to write a readonly database", "sql": "insert into meta (key, value) values('WorkDir','/w/home.01/ol/grad/laj/workspace/ee215d');"}
+[2025-06-09 21:35:40.759 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "attempt to write a readonly database", "sql": "insert into meta (key, value) values('version','1');"}
+[2025-06-09 21:35:40.759 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:40.760 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:42.590 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert location failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:42.593 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:44.606 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:44.606 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:45.606 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:45.610 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:45.610 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:45.612 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert location failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:45.714 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert location failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:45.842 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:45.844 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:45.887 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:46.888 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:46.888 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:46.889 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:46.889 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:46.889 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:46.890 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:46.891 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:46.891 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:46.891 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:46.892 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:46.892 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:46.892 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:46.892 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:46.893 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:48.176 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert location failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:48.176 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:48.393 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:48.394 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:48.394 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:48.394 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:48.395 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:48.395 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:48.397 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:48.397 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:48.397 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:48.398 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:48.398 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:49.591 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert location failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:50.176 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:51.343 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:51.902 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:35:52.167 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:52:53.152 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "UNIQUE constraint failed: location.point, location.test, location.tool", "sql": "INSERT INTO location (tool, file, point, test, line) VALUES ('ADE GUI', '/w/home.01/ol/grad/laj/workspace/ee215d/logs_laj/logs1/virtuoso_ade_debug.log', '', '', '0');"}
+[2025-06-09 21:52:53.152 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "attempt to write a readonly database", "sql": "delete from meta;"}
+[2025-06-09 21:52:53.152 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "attempt to write a readonly database", "sql": "insert into meta (key, value) values('HistorySimDir','/w/home.01/ol/grad/laj/simulation/dac/dac/maestro/results/maestro/ExplorerRun.0');"}
+[2025-06-09 21:52:53.152 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "attempt to write a readonly database", "sql": "insert into meta (key, value) values('WorkDir','/w/home.01/ol/grad/laj/workspace/ee215d');"}
+[2025-06-09 21:52:53.152 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "attempt to write a readonly database", "sql": "insert into meta (key, value) values('version','1');"}
+[2025-06-09 21:52:53.153 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:52:53.153 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:52:54.898 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert location failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:52:54.898 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:52:57.186 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:52:57.186 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:52:59.170 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:52:59.280 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:52:59.441 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:52:59.441 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:52:59.441 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:52:59.442 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:52:59.442 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:52:59.443 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:52:59.443 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:52:59.443 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert location failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:52:59.540 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert location failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:52:59.683 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:52:59.688 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:52:59.727 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:00.728 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:00.729 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:01.228 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:01.229 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:01.229 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:02.196 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert location failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:02.196 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:02.729 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:02.734 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:02.734 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:02.734 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:02.734 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:02.734 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:02.734 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:02.735 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:02.735 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:02.735 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:02.735 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:02.735 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:02.736 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:04.237 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:04.237 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:04.238 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:04.238 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:04.239 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:04.239 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:04.241 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:04.242 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:04.242 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:04.242 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:04.243 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:04.369 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert location failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:04.947 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:06.188 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:06.306 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:07.168 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 21:53:07.308 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:07.028 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "UNIQUE constraint failed: location.point, location.test, location.tool", "sql": "INSERT INTO location (tool, file, point, test, line) VALUES ('ADE GUI', '/w/home.01/ol/grad/laj/workspace/ee215d/logs_laj/logs1/virtuoso_ade_debug.log', '', '', '0');"}
+[2025-06-09 22:02:07.028 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "attempt to write a readonly database", "sql": "delete from meta;"}
+[2025-06-09 22:02:07.028 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "attempt to write a readonly database", "sql": "insert into meta (key, value) values('HistorySimDir','/w/home.01/ol/grad/laj/simulation/dac/dac/maestro/results/maestro/ExplorerRun.0');"}
+[2025-06-09 22:02:07.028 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "attempt to write a readonly database", "sql": "insert into meta (key, value) values('WorkDir','/w/home.01/ol/grad/laj/workspace/ee215d');"}
+[2025-06-09 22:02:07.028 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "attempt to write a readonly database", "sql": "insert into meta (key, value) values('version','1');"}
+[2025-06-09 22:02:07.028 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "attempt to write a readonly database", "sql": "UPDATE location SET file='exprOutputs.log.4.13.1' WHERE tool='Expression Evaluator' AND file='/w/home.01/ol/grad/laj/simulation/dac/dac/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.4.13.1';"}
+[2025-06-09 22:02:07.028 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:07.029 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:08.710 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert location failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:08.711 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:11.195 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:11.195 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:12.193 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:12.197 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:12.197 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:12.199 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert location failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:12.301 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert location failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:12.460 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:12.464 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:12.500 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:13.501 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:13.502 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:13.502 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:13.502 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:13.503 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:13.503 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:13.504 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:13.504 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:13.504 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:13.505 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:13.505 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:13.505 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:13.506 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:13.506 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:14.885 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert location failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:14.886 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:15.006 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:15.007 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:15.007 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:15.508 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:15.512 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:15.512 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:15.512 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:15.512 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:15.512 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:15.512 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:15.512 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:16.321 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert location failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:16.891 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:18.283 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:18.559 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:02:19.165 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:13.141 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "UNIQUE constraint failed: location.point, location.test, location.tool", "sql": "INSERT INTO location (tool, file, point, test, line) VALUES ('ADE GUI', '/w/home.01/ol/grad/laj/workspace/ee215d/logs_laj/logs1/virtuoso_ade_debug.log', '', '', '0');"}
+[2025-06-09 22:24:13.141 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "attempt to write a readonly database", "sql": "delete from meta;"}
+[2025-06-09 22:24:13.141 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "attempt to write a readonly database", "sql": "insert into meta (key, value) values('HistorySimDir','/w/home.01/ol/grad/laj/simulation/dac/dac/maestro/results/maestro/ExplorerRun.0');"}
+[2025-06-09 22:24:13.141 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "attempt to write a readonly database", "sql": "insert into meta (key, value) values('WorkDir','/w/home.01/ol/grad/laj/workspace/ee215d');"}
+[2025-06-09 22:24:13.141 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "attempt to write a readonly database", "sql": "insert into meta (key, value) values('version','1');"}
+[2025-06-09 22:24:13.141 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:13.142 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:14.921 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert location failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:14.922 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:17.347 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:17.347 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:18.345 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:18.346 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:18.347 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:18.351 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert location failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:18.453 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert location failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:18.594 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:18.597 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:18.644 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:19.648 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:19.648 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:19.648 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:19.648 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:19.648 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:19.648 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:19.648 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:19.648 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:19.649 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:19.649 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:19.649 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:19.649 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:19.649 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:19.650 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:21.038 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert location failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:21.038 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:21.655 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:21.655 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:21.655 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:21.658 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:21.659 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:21.659 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:21.661 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:21.662 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:21.662 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:21.662 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:21.663 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:22.514 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert location failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:23.141 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:24.597 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:24.692 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:24:25.165 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:20.811 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "UNIQUE constraint failed: location.point, location.test, location.tool", "sql": "INSERT INTO location (tool, file, point, test, line) VALUES ('ADE GUI', '/w/home.01/ol/grad/laj/workspace/ee215d/logs_laj/logs1/virtuoso_ade_debug.log', '', '', '0');"}
+[2025-06-09 22:39:20.812 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "attempt to write a readonly database", "sql": "delete from meta;"}
+[2025-06-09 22:39:20.812 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "attempt to write a readonly database", "sql": "insert into meta (key, value) values('HistorySimDir','/w/home.01/ol/grad/laj/simulation/dac/dac/maestro/results/maestro/ExplorerRun.0');"}
+[2025-06-09 22:39:20.812 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "attempt to write a readonly database", "sql": "insert into meta (key, value) values('WorkDir','/w/home.01/ol/grad/laj/workspace/ee215d');"}
+[2025-06-09 22:39:20.812 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - ServiceDBAccessSqliteOp::evalSql failed {"reason": "attempt to write a readonly database", "sql": "insert into meta (key, value) values('version','1');"}
+[2025-06-09 22:39:20.812 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:20.812 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:22.619 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert location failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:22.622 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:24.979 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:24.980 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:25.979 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:25.983 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:25.983 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:25.985 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert location failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:26.087 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert location failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:26.259 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:26.263 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:26.307 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:27.308 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:27.308 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:27.308 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:27.309 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:27.309 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:27.309 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:27.311 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:27.311 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:27.312 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:27.312 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:27.312 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:27.312 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:27.313 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:27.313 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:28.686 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert location failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:28.689 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:39.818 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:39.818 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:39.818 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:40.318 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:40.318 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:40.318 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:40.320 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:40.321 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:40.321 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:40.321 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:40.321 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:40.347 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert location failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:40.981 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:42.355 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:42.824 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:39:43.165 -0700] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-06-09 22:54:49.543 -0700] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Current memory used: 90.3047 MBytes, peak memory used: 90.3047 MBytes {"hostname": "eeapps03.labidm.seas.ucla.edu", "processid": 778647, "logfile": "/w/home.01/ol/grad/laj/workspace/ee215d/logs_laj/logs1/LoggingService0.log"}
+[2025-06-09 22:54:49.543 -0700] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Stopping Logging Service process. {"hostname": "eeapps03.labidm.seas.ucla.edu", "processid": 778647, "logfile": "/w/home.01/ol/grad/laj/workspace/ee215d/logs_laj/logs1/LoggingService0.log"}
+[2025-06-09 22:54:49.543 -0700] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service stop!!!! {"hostname": "eeapps03.labidm.seas.ucla.edu", "processid": 778647, "logfile": "/w/home.01/ol/grad/laj/workspace/ee215d/logs_laj/logs1/LoggingService0.log"}
