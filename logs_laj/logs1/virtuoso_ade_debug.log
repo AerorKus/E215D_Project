@@ -354,3 +354,4 @@ dac/dac/schematic    {test: dac_dac_1}
 [2025-06-10 00:18:17.954 -0700] [INFO] [cadence.virtuoso.ade.pointevaluator] - Submitted {"history": "ExplorerRun.0", "point": 1, "testname": "dac_dac_1"}
 [2025-06-10 00:18:55.164 -0700] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "ExplorerRun.0", "point": 1, "testname": "dac_dac_1"}
 [2025-06-10 00:18:55.420 -0700] [EVENT] [cadence.virtuoso.ade.gui] - HistoryFinished {"point": 1, "testname": "dac_dac_1", "event": "HistoryFinished", "EventSource": "ADE GUI", "HistoryName": "ExplorerRun.0"}
+[2025-06-10 00:34:06.407 -0700] [PROCESS] [cadence.virtuoso.ade.gui] - Logging Service '894239' stopped with exit code '0' {"logfile": "/w/home.01/ol/grad/laj/workspace/ee215d/logs_laj/logs1/LoggingService11.log"}
